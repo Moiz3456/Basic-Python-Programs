@@ -1,10 +1,10 @@
 #Program to find the the given number is leap year or not
 #Program to find the number of leap years in given range
 #program to print all the leap years in given range
-d=int(input("Please choose any one option regarding leap year programs\n1) To find out the given number is leap year or not\n2) To find out the number of leap years in given range\n3) To print all the leap years in given range\n"))
+d=int(input("Please choose any one option regarding leap year programs \n1) To find out the given number is leap year or not\n2) To find out the number of leap years in given range\n3) To print all the leap years in given range\n"))
 def leapYear():
     n=int(input("Enter a year"))
-    if n%4==0:
+    if n%4==0 :
         print("Entered year", n ," is a Leap Year\nThank You")
     else:
         print("Entered Year", n ," is not a Leap Year\nPlease Try Again.")
