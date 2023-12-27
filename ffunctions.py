@@ -12,4 +12,6 @@ for i in range(500000):
     else:
         t=t+1
 ratio=h/t
-print(ratio)
+x=10
+y=15
+print(x)
